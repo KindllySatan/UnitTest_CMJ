@@ -1,7 +1,7 @@
 # JS Unit Test tool - `UnitTest`
 
 If you want a lightweight `JavaScript` unit test plug-in.
-Then use `UnitTest` directly to unit test your `JavaSript` code. Rest assured that `UnitTest` is only the size of `2KB`, so you don't have to worry about the impact of the introduction of `UnitTest` on the performance of your project.
+Then use `UnitTest` directly to unit test your `JavaSript` code. Rest assured that `UnitTest` Core is only the size of `3KB`, so you don't have to worry about the impact of the introduction of `UnitTest` on the performance of your project.
 
 
 The project follows the CommonJS specification, and the *UnitTest ESM* project can be seen: [UnitTest ESM](https://gitee.com/KindllySatan/unit-test-ems)
