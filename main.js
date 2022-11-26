@@ -1,8 +1,7 @@
 /**
  * unitTest - 单元测试结果捕获函数
  *
- * @version 1.0.0
- * @author KindllySatan <kindllysatan@foxmail.com>
+ * @const
  * @function
  * @param { String } desc - 传入的参数列表的字符串描述
  * @param { Function } fun - 包含传入测试函数的代理函数
@@ -24,8 +23,7 @@ const unitTest = function (desc, fun) {
 /**
  * expect - 单元测试函数代理器
  *
- * @version 1.0.0
- * @author KindllySatan <kindllysatan@foxmail.com>
+ * @const
  * @function
  * @namespace
  * @param res - 实际函数返回结果
@@ -39,6 +37,7 @@ const expect = function (res, debug) {
          *
          * @param expectRes - 期望函数返回结果
          * @memberOf expect
+         * @throws { Error } 错误测试用例相关信息
          * */
         toBe: function (expectRes) {
             if (res !== expectRes) {
@@ -55,8 +54,7 @@ const expect = function (res, debug) {
 /**
  * unitTestSet - 单元测试集函数
  *
- * @version 1.0.0
- * @author KindllySatan <kindllysatan@foxmail.com>
+ * @const
  * @function
  * @param { Function } testFun - 被测试函数
  * @param { Array } testList - 测试参数列表
