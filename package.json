@@ -1,0 +1,13 @@
+{
+  "name": "ks_unit_test_cmj",
+  "version": "1.0.0",
+  "description": "A minimalist JS unit testing tool, Follow the CommonJS specification",
+  "main": "main.js",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/KindllySatan/unit-test-cmj.git"
+  },
+  "author": "KindllySatan",
+  "license": "AGPL-3.0"
+}

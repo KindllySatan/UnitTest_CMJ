@@ -69,12 +69,12 @@ const unitTestSet = function (testFun, testList, resultList, debug=false) {
     const failTestIndexList = [];
 
     for (let num = 0; num < testListLen; num++) {
-        const re = unitTest(`${ testList[num] }`, () => {
+        const testResult = unitTest(`${ testList[num] }`, () => {
             expect(testFun(...testList[num]), debug).toBe(resultList[num]);
         });
 
         // 若测试未通过则记录错误信息
-        if (!re) {
+        if (!testResult) {
             failTestIndexList.push({
                 testIndex: num,
                 testParameter: testList[num],
