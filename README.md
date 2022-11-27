@@ -10,7 +10,7 @@ The project follows the CommonJS specification, and the *UnitTest ESM* project c
 
 ## Install
 ```shell
-npm install -d ks_unitTest_esm
+npm install -d ks_unitTest_cmj
 ```
 
 ## File directory
